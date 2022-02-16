@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(17, 16, 16);
+}
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 0px 0px rgb(31, 28, 28)
+}
+
+#display
+{
+    background-color: rgb(37, 37, 37, 0.877);
+    color: white;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+
+
+.buttons{
+    background-color: rgba(17, 16, 16);
+    color: white;
+    display: grid;
+    border-bottom: 1px solid rgb(17, 16, 16);
+    border-left: 1px solid rgb(17, 16, 16);
+    border-radius: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.buttons > div {
+    background-color: rgba(24, 23, 23, 0.877);
+    border-top: 1px solid rgb(17, 16, 16);
+    border-right: 1px solid rgb(17, 16, 16);
+    border-radius: 12px;
+}
+.button{
+    border: 0.5px solid rgb(17, 16, 16);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: rgb(140, 128, 240);
+    color: rgb(19, 17, 17);
+    font-weight: bold;
+}
+#clear{
+    background-color: rgb(69, 228, 167);
+    color: white;
+}
+#delete{
+    background-color: rgb(214, 34, 139);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#delete:hover{
+    background-color: rgb(214, 97, 166);
+    font-weight: bold;
+    color: black;
+}
+#clear:hover{
+    background-color: rgb(118, 238, 192);
+    transition: 0.3s ease-in-out;
+    color: black;
+}
+.button:hover{
+    background-color: rgb(88, 86, 86);
+    color: blanchedalmond;
+    transition: 0.3s ease-in-out;
+}
+#operator{
+    background-color: rgb(24, 90, 212);
+    color: white;
+
+}
+#operator:hover{
+    background-color: rgb(46, 119, 255);
+    transition: 0.3s ease-in-out;
+    color: black;
+    font-weight: bold;
+}
+#equal:hover{
+    background-color: rgb(169, 162, 247);
+    transition: 0.3s ease-in-out;
+}
